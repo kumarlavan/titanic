@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 72px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid gainsboro;
+    background-color: rgba(251, 250, 250, 0.874);
+    
+}
+.titan{
+    font-family: 'Young Serif', serif;
+    color: darkorange;
+}
+.tags{
+    /* height: 100%; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: rgb(32, 85, 4);
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+/* font-family: 'Young Serif', serif; */
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(241, 235, 235, 0.402);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gainsboro;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+    right: 30px;
+}
+.list ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+}
+.list ul li{
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    padding: 15px;
+    /* cursor: pointer; */
+
+}
+.list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: royalblue;
+    transition: 1s;
+}
+
+
+.main_container{
+    width: 100%;
+    height: 30rem;
+    background-color: rgba(11, 11, 11, 0.895);
+    display: flex;
+    justify-content: space-between;
+}
+.side_bar{
+    width: 25%;
+    height: 90%;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    background-color: whitesmoke;
+    border: 0.5px solid rgba(220, 220, 220, 0.584);
+    overflow: scroll;
+}
+.side_bar::-webkit-scrollbar{
+    display: none;
+}
+.news_section{
+    width: 65%;
+    height: 90%;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    /* background-color: cornflowerblue; */
+    background-color: rgba(87, 86, 86, 0.537);
+    border: 0.5px solid gainsboro;
+
+}
+ #breaknews{
+    border-radius: 20px;
+ }
+ .addedElements{
+    margin: 10px;
+    /* overflow: hidden; */
+    border: 2px solid black;background-color: cyan;
+ }
+ .skeleton{
+    width: 95%;
+    height: 30px;
+    background-color: chocolate;
+ }
